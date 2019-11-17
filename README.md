@@ -2,6 +2,16 @@
 
 A pythonic way to assign secret santas without human intervention. Requires a gmail oauth credential file. Mappings are logged in `secret_log.json`. Emails will not be sent unless everyone is mapped.
 
+
+## Installation / Usage
+Clone the repo and in the folder run:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 `Usage: secret-santa.py -c <path_to_credentials.json> -t <path_to_token_pickle>`
 
 Note: Token will will safely persist credentials after your first authentication
