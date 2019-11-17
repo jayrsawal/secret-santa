@@ -6,6 +6,7 @@ A pythonic way to assign secret santas without human intervention. Requires a gm
 
 Note: Token will will safely persist credentials after your first authentication
 
+
 ## secret-santa.json
 
 You may add additional santas in `secret-santa.json` using the following format:
@@ -16,7 +17,9 @@ You may add additional santas in `secret-santa.json` using the following format:
 ``` 
 
 `name`: Name of the Santa
+
 `email`: Email of the Santa
+
 `group`: Santas in the same group will not be matched together
 
 ## secret-santa-email
